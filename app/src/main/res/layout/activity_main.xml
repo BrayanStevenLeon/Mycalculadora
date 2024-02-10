@@ -7,8 +7,8 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="365dp"
-        android:layout_height="414dp"
+        android:layout_width="375dp"
+        android:layout_height="503dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,6 +66,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Dividir" />
+
+        <Button
+            android:id="@+id/btfactorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Factorial" />
+
+        <Button
+            android:id="@+id/btfibonacci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fibonacci" />
 
         <TextView
             android:id="@+id/textView5"
